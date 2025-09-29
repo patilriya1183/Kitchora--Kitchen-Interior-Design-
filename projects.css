@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.virtual-bg{
+    padding: 5px;
+    height: 200px;
+}
+
+.head-virtual{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(images/projects/darren-ahmed-arceo-jqyXMfuCBqs-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+
+.virtual-p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.virtual-anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.virtual-anchor:hover{
+    text-decoration: none;
+    color: #daa14c;
+}
+
+.virtual-h1, .kit-h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.showroom-div{
+    padding: 20px;
+}
+
+
+.tour-1{
+    width: 100%;
+}
+
+.img-cont-kitchen{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box{
+    width: 100%;
+    height: 200px;
+    background-color: tomato;
+    object-fit: cover;
+    transition: background-size 0.4s ease; 
+}
+
+.i12{
+    background-image: url("images/projects/12.jpg");
+    background-size: cover;
+}
+
+.i11{
+    background-image: url("images/projects/11.jpg");
+    background-size: cover;
+}
+
+.i10{
+    background-image: url("images/projects/10.jpg");
+    background-size: cover;
+}
+
+.i9{
+    background-image: url("images/projects/9.jpg");
+    background-size: cover;
+}
+
+.i8{
+    background-image: url("images/projects/8.jpg");
+    background-size: cover;
+}
+
+.i7{
+    background-image: url("images/projects/7.jpg");
+    background-size: cover;
+}
+
+.i6{
+    background-image: url("images/projects/6.jpg");
+    background-size: cover;
+}
+
+.i5{
+    background-image: url("images/projects/5.jpg");
+    background-size: cover;
+}
+
+.i4{
+    background-image: url("images/projects/4.jpg");
+    background-size: cover;
+}
+
+.i3{
+    background-image: url("images/projects/3.jpg");
+    background-size: cover;
+}
+
+.i2{
+    background-image: url("images/projects/2.jpg");
+    background-size: cover;
+}
+
+.i1{
+    background-image: url("images/projects/1.png");
+    background-size: cover;
+}
+
+.img-box:hover {
+    background-size: 105%; 
+}
+
+.h3-kitchen{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.h3-kitchen:hover{
+    color: #daa14c;
+}
+
+
+
+/*  ---************ Media Min-Wisth 1024px ************--- */
+@media (min-width:1024px) {
+    
+    .virtual-bg{
+        padding: 0;
+        height: 500px;
+    }
+
+    .virtual-p{
+        font-size: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    
+    .virtual-anchor{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .virtual-anchor:hover{
+        text-decoration: none;
+        color: #daa14c;
+    }
+    
+    .virtual-h1{
+        font-size: 80px;
+        font-weight: bold;
+        text-shadow: 4px 2px 50px rgba(0,0,0,0.6);
+    }
+
+        
+    .showroom-div{
+        /* background-color: plum; */
+        padding: 5%;
+    }
+
+    .tour-1 , .tour-2{
+        width: 100%;
+        /* background-color: steelblue; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .tour-2{
+        margin-top: 20px;
+    }
+    
+    .img-cont-kitchen{
+        width: 30%; 
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-box{
+        width: 100%;
+        height: 250px;
+        background-color: tomato;
+    }
+
+    /* .img-cont-kitchen img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+    } */
+
+    /* .i2{
+        margin-left: 20px;
+    }
+
+    .i3{
+        margin-left: 20px;
+    }    */
+
+    /* .img-box:hover{
+        transform: scale(1.1);
+    } */
+
+    .h3-kitchen{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .h3-kitchen:hover{
+        color: #daa14c;
+    }
+
+
+}
