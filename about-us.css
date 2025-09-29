@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Head Section */
+.head-virtual{
+    background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(images/about-us/banner.jpg) !important; 
+    background-size: cover;
+} 
+
+/* Section 1 */
+.about-us-div{
+    width: 100%;
+    padding: 25px;
+}
+
+.about-us-img{
+    width: 100%;
+}
+
+.img-about{
+    width: 100%;
+}
+
+.about-us-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.about-b{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;  
+    color: #daa14c;
+}
+
+.about-h1{
+    margin-top: 20px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.about-p{
+    margin-top: 20px;
+    color: #7a7c80;
+    text-align: center;
+}
+
+.btn-about{
+    margin-top: 25px;
+    padding: 13px;
+    width: 220px;
+    font-size: 12px;
+    background-color: #30373e;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-about:hover{
+    background-color: #daa14c;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+/*  Section 2 */
+.system-div{
+    width: 100%;
+    padding: 10px;
+}
+
+.system-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.system-b{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;  
+    color: #daa14c;
+}
+
+.system-h1{
+    margin-top: 20px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.system-p{
+    margin-top: 20px;
+    color: #7a7c80;
+    text-align: center;
+    width: 310px;
+}
+
+.p1{
+    color: #7a7c80;
+    width: 310px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.system-icon2-p{
+    width: 300px;
+}
+
+.icon-text-1, .icon-text-2{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text-1{
+    border-bottom: 1px solid #ababab;
+}
+
+.system-img{
+    width: 100%;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.s-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/*  ########### Media Screen Min-Width 1024px ########## */
+@media (min-width:1024px) {
+
+    /*  Section 1 */
+    .about-us-div{
+        width: 100%;
+        padding: 25px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-au{
+        width: 70%;
+        display: flex;
+    }
+
+    .about-us-img{
+        width: 50%;
+    }
+
+    .about-us-text{
+        width: 50%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+
+    .about-h1{
+        margin-top: 20px;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .about-p{
+        margin-top: 20px;
+        color: #7a7c80;
+        text-align: left;
+    }
+
+    .btn-about{
+        margin-top: 20px;
+    }   
+    
+    /* Section 2 */
+    .system-div{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .system-text{
+        width: 50%;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .system-adjust{
+        width: 450px;
+    }
+
+    .system-h1{
+        margin-top: 20px;
+        font-size: 38px;
+        text-align: left;
+    }
+
+    .system-p{
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .system-img1, .system-img2{
+        width: 50px;
+    }
+
+    .system-img{
+        width: 50%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .icon-text-1, .icon-text-2{
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .s-img{
+        width: 100%;
+    }
+
+    .p1{
+        width: 205px;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 13px;
+    }
+    
+}
