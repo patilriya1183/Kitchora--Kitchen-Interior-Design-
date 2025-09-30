@@ -281,25 +281,25 @@
 }
 
 .b1{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/card-cont/image.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/card-cont/image.png);
     background-size: cover;  
     background-position: center;
 }
 
 .b2{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/card-cont/image1.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/card-cont/image1.png);
     background-size: cover;  
     background-position: center;
 }
 
 .b3{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/card-cont/image2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/card-cont/image2.png);
     background-size: cover;  
     background-position: center;
 }
 
 .b4{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/card-cont/image4.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/card-cont/image4.png);
     background-size: cover;  
     background-position: center;
 }
@@ -428,7 +428,7 @@
 
 
 .box-step:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/how-we-work/01.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/how-we-work/01.jpg);
     background-size: cover;
 }
 
@@ -445,12 +445,12 @@
 }
 
 .box-2:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/how-we-work/02.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/how-we-work/02.jpg);
     background-size: cover;
 }
 
 .box-3:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/how-we-work/03.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(assets/images/how-we-work/03.jpg);
     background-size: cover;
 }
 
@@ -640,7 +640,7 @@
 .footer-cont{
     background: 
         linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
-        url('images/footer/lotus-design-n-print-RwXneIyqxAw-unsplash.jpg'); 
+        url('assets/images/footer/lotus-design-n-print-RwXneIyqxAw-unsplash.jpg'); 
     
     background-size: cover;
 }
