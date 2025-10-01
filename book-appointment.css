@@ -1,0 +1,232 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .head-virtual{
+        background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(assets/images/book-appointmnet/banner.jpg) !important; 
+        background-size: cover;
+        background-position: center;
+    } 
+
+    .virtual-h1{
+        text-align: center;
+    }
+
+    .book-appointment{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        padding: 10%;
+    }
+
+
+    .apnt1{
+        width: 100%;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .space-field{
+        margin-top: 22px;
+    }
+
+    .radio-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field-div{
+    width: 100%;
+    display: block;
+    }
+
+    .input-field, .select-field, .textarea-field {
+        width: 100% !important;
+        padding: 10px;
+        border: 1px solid #ccc;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .input-field:focus, 
+    .select-field:focus, 
+    .textarea-field:focus {
+        border-color: #daa14c;
+    }
+
+    .textarea-field{
+        resize: none;
+        height: 100px;
+    }
+
+    .button-box{
+        margin-top: 15px;
+    }
+
+    .button-div {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    .btn-form {
+    padding: 13px;
+    background: #30373e;
+    color: #fff;
+    width: 220px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+
+    .i-arrow{
+        margin-left: 10px;
+    }
+
+    .btn-form:hover {
+    background: #daa14c;
+    }
+
+    .free-apnt{
+        padding: 10%;
+    }
+
+    .free-apnt h1{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .free-apnt p{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .check-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-check{
+        color: #daa14c;
+        margin-top: 25px;
+    }
+
+    .img-booking{
+        display: none;
+    }
+
+    @media (min-width:1024px) {
+
+        .book-appointment{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .apnt1{
+            width: 50%;
+        }
+
+        
+        .form{
+            padding: 5%;
+        }
+
+        .apnt1{
+            width: 100%;
+        }
+
+        .form-h3{
+            font-size: 40px;
+        }
+
+        .form-h5{
+            font-size: 30px;
+        }
+
+        .r1{
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-between;
+        }
+
+        .r1 .input-field-div {
+            width: 49%;
+        }
+
+        .textarea-field{
+            resize: none;
+            height: 80px;
+        }
+
+        .margin-class{
+            margin-top: 0 !important;
+        }
+
+        .radio-box{
+            display: flex;
+            flex-direction: column !important;
+        }
+
+        .button-div{
+            margin-top: 10% !important;
+        }
+
+        .free-apnt{
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background: linear-gradient( to right, rgb(213, 213, 213), white);
+        }
+
+        .free-apnt h1{
+            font-size: 50px;
+        }
+
+        .freep{
+            margin-top: 10% !important;
+        }
+
+        .free-apnt h1, .freep{
+            text-align: left !important; 
+        }
+
+        .check-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 5%;
+            width: 500px;
+        }
+
+        .check-1  p{
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .img-booking{
+            margin-top: 25px;
+            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .book-img{
+            width: 100%;
+        }
+    }

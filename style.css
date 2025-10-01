@@ -684,9 +684,24 @@
     padding: 10px;
 }
 
-.about-us-foot, .quick-link-foot{
+.mob-div{
     width: 100%;
-    padding: 10px;
+}
+
+.about-us-foot, .quick-link-foot{
+    /* width: 100%; */
+    padding: 5px;
+}
+
+.about-us-foot{
+    /* background-color: plum; */
+    width: 43%;
+
+}
+
+ .quick-link-foot{
+    /* background-color: lightcyan; */
+    width: 57%;
 }
 
 .logo-foot{
@@ -759,6 +774,15 @@
 .para-div, .para-s,  .input-div{
     margin-top: 15%;
     color: #b5b5b3;
+}
+
+.para-about a{
+    color: #b5b5b3;
+}
+
+.para-about a:hover{
+    text-decoration: none;
+    color: #daa14c;
 }
 
 .input-div{
@@ -1139,5 +1163,25 @@ span{
     .footer-cont {
         margin-bottom: 0;
         padding-bottom: 0;
-      }
+    }
+
+    /* .mob-div{
+        width: 100%;
+    } */
+
+    /* .about-us-foot, .quick-link-foot{
+        width: 100%;
+        padding: 5px;
+    } */
+
+    .about-us-foot{
+        /* background-color: plum;  */
+        width: 45%;
+
+    }
+
+    .quick-link-foot{
+        /* background-color: lightcyan; */
+        width: 55%;
+    }
 }
