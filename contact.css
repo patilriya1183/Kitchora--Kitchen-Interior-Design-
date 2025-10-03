@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head-card{
+    background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(assets/images/contact-us/banner.jpg) !important; 
+    background-size: cover;
+    background-position: center;
+} 

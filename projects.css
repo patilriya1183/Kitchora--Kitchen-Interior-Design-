@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.virtual-bg{
+.card-bg{
     padding: 5px;
     height: 200px;
 }
 
-.head-virtual{
+.head-card{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(assets/images/projects/darren-ahmed-arceo-jqyXMfuCBqs-unsplash.jpg);
@@ -21,23 +21,23 @@
     color: white;
 } 
 
-.virtual-p{
+.card-p{
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.virtual-anchor{
+.card-anchor{
     text-decoration: none;
     color: white;
 }
 
-.virtual-anchor:hover{
+.card-anchor:hover{
     text-decoration: none;
     color: #daa14c;
 }
 
-.virtual-h1, .kit-h1{
+.card-h1, .kit-h1{
     font-size: 30px;
     font-weight: bold;
 }
@@ -83,7 +83,7 @@
 }
 
 .i9{
-    background-image: url("images/projects/9.jpg");
+    background-image: url("assets/images/projects/9.jpg");
     background-size: cover;
 }
 
@@ -146,28 +146,28 @@
 /*  ---************ Media Min-Wisth 1024px ************--- */
 @media (min-width:1024px) {
     
-    .virtual-bg{
+    .card-bg{
         padding: 0;
         height: 500px;
     }
 
-    .virtual-p{
+    .card-p{
         font-size: 17px;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
     
-    .virtual-anchor{
+    .card-anchor{
         text-decoration: none;
         color: white;
     }
     
-    .virtual-anchor:hover{
+    .card-anchor:hover{
         text-decoration: none;
         color: #daa14c;
     }
     
-    .virtual-h1{
+    .card-h1{
         font-size: 80px;
         font-weight: bold;
         text-shadow: 4px 2px 50px rgba(0,0,0,0.6);
@@ -201,7 +201,7 @@
     .img-box{
         width: 100%;
         height: 250px;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
 
     .h3-kitchen{

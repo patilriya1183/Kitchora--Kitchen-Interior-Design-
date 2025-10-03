@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.head-virtual{
+.head-card{
     background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(assets/images/team/ban.png) !important; 
     background-size: cover;
     background-position: center;

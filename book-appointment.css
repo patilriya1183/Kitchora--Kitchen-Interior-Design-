@@ -4,13 +4,13 @@
         box-sizing: border-box;
     }
 
-    .head-virtual{
+    .head-card{
         background-image: linear-gradient(rgba(57, 57, 57, 0.5)), url(assets/images/book-appointmnet/banner.jpg) !important; 
         background-size: cover;
         background-position: center;
     } 
 
-    .virtual-h1{
+    .card-h1{
         text-align: center;
     }
 
@@ -38,14 +38,19 @@
         margin-top: 22px;
     }
 
-    .radio-box{
+    .radio-box {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .radio-box label {
+        width: 100%; 
     }
 
     .input-field-div{
-    width: 100%;
-    display: block;
+        width: 100%;
+        display: block;
     }
 
     .input-field, .select-field, .textarea-field {
